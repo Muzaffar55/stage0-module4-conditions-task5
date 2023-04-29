@@ -1,6 +1,6 @@
 package school.mjc.stage0.conditions.task5;
 
-public class BasicSwitch {
+public class BasicSwitchBreaks {
     public static void main(String[] args) {
         int a = 20;
         switch (a) {
@@ -15,6 +15,7 @@ public class BasicSwitch {
                 break;
             default:
                 System.out.println("default");
+                break;
         }
     }
 }
